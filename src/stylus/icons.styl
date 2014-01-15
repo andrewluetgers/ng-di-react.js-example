@@ -1,0 +1,237 @@
+/* --------- icons ---------*/
+
+.ico {
+	display: block;
+	background-image: url("../assets/img/row-icons.png");
+	background-repeat: no-repeat;
+	width: 32px;
+	height: 32px;
+	overflow: hidden;
+	/*background-color: blue;*/
+}
+
+/* --------- row icons ---------*/
+.blank > .ico {					background-position: 0 32px;}
+
+.client > .ico {				background-position: 0 0;}
+.selected.client > .ico {		background-position: -32px 0;}
+
+.project > .ico {				background-position: 0 -35px;}
+.selected .project > .ico {		background-position: -32px -35px;}
+
+.workflow > .ico {
+	background-position: 0 -68px;
+}
+.selected .workflow > .ico {
+	background-position: -32px -68px;
+}
+
+
+.job > .ico {					background-position: 0 -100px;}
+.selected .job > .ico {			background-position: -32px -100px;}
+
+.jobRun > .ico {				background-position: 0 -134px;}
+.selected .jobRun > .ico {		background-position: -32px -134px;}
+
+.workflowRun > .ico {			background-position: 0 -167px;}
+.selected .workflowRun > .ico {	background-position: -32px -167px;}
+
+.results > .ico {				background-position: 0 -200px;}
+.selected .results > .ico {		background-position: -32px -200px;}
+
+.file > .ico,
+.sharedFile > .ico,
+.projectFile > .ico {
+	background-position: 0 -233px;
+}
+.selected .file > .ico,
+.selected .sharedFile > .ico,
+.selected .projectFile > .ico {
+	background-position: -32px -233px;
+}
+
+.check>.ico {					background-position: 0 -265px;}
+.selected .check>.ico {			background-position: -32px -265px;}
+
+
+.loading .ico {
+  opacity: .3;
+}
+
+
+/* --------- header icons ---------*/
+
+#header .ico,
+#toolbar .ico {
+	background-image: url("../assets/img/header-icons.png");
+}
+
+.search .ico {
+	background-position: -2px 0px;
+}
+
+#clearSearch .ico {
+	background-position: -46px -3px;
+}
+
+#searchOpts .ico {
+	background-position: -84px -3px;
+}
+
+#accountInfo .ico {
+	background-position: -124px 0;
+}
+
+input.newTag,
+body .tag>.ico {
+	background-position: -156px -1px;
+	background-image: url("../assets/img/header-icons.png");
+}
+body .selected .tag>.ico {
+	background-position: -188px -1px;
+}
+
+// tag input for dedtail views
+#tagDetailPicker .picker .tag>.ico {
+	background-position: -189px -7px;
+}
+
+
+/* --------- tag badges ---------*/
+
+.tags {
+	white-space: nowrap;
+
+	bottom: 4px;
+	overflow: hidden;
+}
+
+.tags a {
+	display: block;
+	height: 18px;
+	line-height: 18px;
+	color: #ffffff;
+	font-size: 13px;
+	font-weight: bold;
+	padding: 0 6px 1px 6px;
+	margin: 6px 3px 4px 0;
+	float: left;
+	border: solid 1px;
+	border-color: rgba(0,0,0,0.07);
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.tags a:hover,
+.tags a:focus {
+	opacity: 1;
+	padding-right: 0;
+}
+
+#filters .tag>.ico {
+//	background-image: none
+	border: solid 1px;
+	border-color: rgba(0,0,0,0.07);
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	width: 16px;
+	height: 16px;
+	margin-top: 8px;
+	margin-left: 8px;
+}
+
+.tag.tagColor0>.ico,
+.tags a.tagColor0 {
+	background: #ffd9d7;
+	color: #c68581;
+	text-shadow: 0px 1px 0px rgba(255,255,255, 0.7);
+	// filter: dropshadow(color=#c9635e, offx=0, offy=-1);
+} // red
+
+.tag.tagColor1>.ico,
+.tags a.tagColor1 {
+	background: #fee6c6;
+	color: #c19563;
+	text-shadow: 0px 1px 0px rgba(255,255,255, 0.9);
+	// filter: dropshadow(color=#c68c48, offx=0, offy=-1);
+} // orange
+
+.tag.tagColor2>.ico,
+.tags a.tagColor2 {
+	background: #f7f5c9; 
+	color: #b4a650;
+	text-shadow: 0px 1px 0px rgba(255,255,255, 1);
+	// filter: dropshadow(color=#b6b14f, offx=0, offy=-1);
+} // yellow
+
+.tag.tagColor3>.ico,
+.tags a.tagColor3 {
+	background: #dff6d7; 
+	color: #83af76;
+	text-shadow: 0px 1px 0px rgba(255,255,255, 1);
+	// filter: dropshadow(color=#7eb46b, offx=0, offy=-1);
+} // green
+
+.tag.tagColor4>.ico,
+.tags a.tagColor4 {
+	background: #dbedfe; 
+	color: #82a1c1;
+	text-shadow: 0px 1px 0px rgba(255,255,255, 1);
+	// filter: dropshadow(color=#749ba5, offx=0, offy=-1);
+} // blue
+
+.tag.tagColor5>.ico,
+.tags a.tagColor5 {
+	background: #e8e1f8; 
+	color: #9f92ba;
+	text-shadow: 0px 1px 0px rgba(255,255,255, 0.7);
+	// filter: dropshadow(color=#8777b2, offx=0, offy=-1);
+} // purple
+
+.tag.tagColor6>.ico,
+.tags a.tagColor6 {
+	background: #e0e0e0; 
+	color: #969696;
+	text-shadow: 0px 1px 0px rgba(255,255,255, 0.7);
+	// filter: dropshadow(color=#909090, offx=0, offy=-1);
+} // grey
+
+
+.selected .tags a {
+	background: transparent;
+	border: none;
+	color: #ffffff;
+	margin-top: 8px;
+	font-weight: bold;
+	text-shadow: none;
+	filter: none;
+	text-shadow: 0 -1px 0 #3d8d11;
+	filter: dropshadow(#3d8d11,0,-1);
+}
+
+.tags a:hover .close {
+	display: inline-block;
+	border-left: solid 1px;
+	margin-left: 6px;
+	padding-left: 6px;
+	padding-right: 6px;
+	margin-top: 1px;
+	height: 15px;
+	line-height: 14px;
+	cursor: pointer;
+	_cursor: hand;
+}
+.tags a .close {
+	display: none;
+}
+
+
+ 
+
+
+
+
+
+
+
+

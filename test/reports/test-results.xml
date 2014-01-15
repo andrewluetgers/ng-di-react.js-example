@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<testsuites>
+  <testsuite name="Chrome 32.0.1700 (Mac OS X 10.9.1)" package="" timestamp="2014-01-15T15:30:19" id="0" hostname="Andrews-MacBook-Pro-4.local" tests="6" errors="0" failures="0" time="0.032">
+    <properties>
+      <property name="browser.fullName" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.77 Safari/537.36"/>
+    </properties>
+    <testcase name="should work in browser" time="0.012" classname="Chrome 32.0.1700 (Mac OS X 10.9.1).App test"/>
+    <testcase name="Should Check Text Assignment" time="0.008" classname="Chrome 32.0.1700 (Mac OS X 10.9.1).Label Component"/>
+    <testcase name="Should be clickable" time="0.009" classname="Chrome 32.0.1700 (Mac OS X 10.9.1).Label Component"/>
+    <testcase name="should create service functions for registered events" time="0.001" classname="Chrome 32.0.1700 (Mac OS X 10.9.1).eventRegistry tests"/>
+    <testcase name="should emit and listen to events" time="0.001" classname="Chrome 32.0.1700 (Mac OS X 10.9.1).eventRegistry tests"/>
+    <testcase name="should cancel listener" time="0.001" classname="Chrome 32.0.1700 (Mac OS X 10.9.1).eventRegistry tests"/>
+    <system-out><![CDATA[
+]]></system-out>
+    <system-err/>
+  </testsuite>
+</testsuites>

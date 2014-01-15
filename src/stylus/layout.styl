@@ -1,0 +1,111 @@
+/* --------- app-style layout ---------*/
+/*
+the basic premise is this: set the top AND bottom and the
+height gets figured out automatically same for left and right
+*/
+
+/*
+apply this class to all elements that participate in the above scheme
+for fixed height or width items apply auto to one of its dimensions
+*/
+
+.layout {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    
+    -webkit-text-size-adjust: none;
+    -ms-text-size-adjust:none;
+    
+    -webkit-tap-highlight-color: transparent;
+}
+
+#main {
+    min-width: 800px;
+    min-height: 400px;
+    /* not selectable by default */
+}
+
+#userLogin {
+
+    /* not selectable by default */
+}
+
+#header {
+    height: 0px;
+    bottom: auto;
+}
+
+#logo {
+    position: absolute;
+    top: 10px;
+    right: 8px;
+    height: 46px;
+}
+
+#toolbar {
+    top: 0px;
+    height: 56px;
+    bottom: auto;
+    background: #222;
+}
+
+#body {top: 56px;bottom: 0px;}
+
+#filters {width: 220px; right: auto;}
+
+#nav {width: 220px; right: auto;}
+
+#detail {top: 26px; left: 220px; right:0px;}
+
+#metadata { 
+    width: 0px;
+    left: auto;
+    background: #f0f0f0;
+    border-left: solid 1px #cdcdcd;
+}
+
+
+@css {
+/*#footer {*/
+    /*height: 32px;*/
+    /*top: auto;*/
+    /*background: blue;*/
+/*}*/
+}
+
+
+/* resizing of sidebar */
+#sidebarResizeHandle {
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 11px;
+    border-right: solid 1px transparent;
+    right: auto; 
+    left: 208px;
+    cursor: ew-resize; 
+}
+#sidebarResizeHandle:hover, body.ew-resize #sidebarResizeHandle {
+    border-right: solid 1px #bac;
+}
+
+body.ew-resize {cursor: ew-resize!important;}
+
+br.clear {
+    height: 0;
+    line-height: 0;
+    font-size: 0;
+    clear: both;
+}
+
+

@@ -1,0 +1,15 @@
+{
+	"options": {
+		"curly": true,
+		"immed": true,
+		"newcap": true,
+		"noarg": true,
+		"sub": true,
+		"boss": true,
+		"eqnull": true,
+		"smarttabs": true,
+		"newcap": false,
+		"laxcomma": true
+	},
+	"globals": {}
+}
